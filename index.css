@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+.container{
+   /* position: fixed;
+   /* left: 50%;
+    top: 40%;*/
+    width: 40%;
+    height: 20%;
+   margin: auto ;
+   margin-top: 10%;
+/* border: 2px solid green;*/
+    color: white;
+}
+button{
+    border-radius: 100px;
+    background-color: rgb(252, 74, 74);
+}
+#lap{
+    background-color: blanchedalmond;
+}
+#start{
+    background-color: aquamarine;
+}
+h1{
+    color: rgb(243, 155, 40);
+    margin-left: 25%;
+}
+ol{
+    list-style: none;
+}
+li{
+    marker: none;
+}
+li:nth-child(odd){
+    border-bottom: 1px solid rgb(71, 53, 53);
+
+}
+li:nth-child(even){
+    border-bottom: 2px solid rgb(43, 3, 3);
+
+}
+/*#btn{
+    /*display: inline-block;
+
+   /* border: 2px solid red;
+}*/
+#start,#lap{
+    display: inline-block;
+    margin-left: 20%;
+    
+}
